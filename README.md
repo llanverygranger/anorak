@@ -21,3 +21,5 @@ If you run the file an_or_a.php the following results will be output demonstrati
 - An apple
 - A unique
 - An x-ray
+
+Note that British and American English can each be selected in the code. For example when American English is chosen it will be 'An herb' whereas in British English it will be 'A herb'.
