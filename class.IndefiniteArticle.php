@@ -21,6 +21,25 @@ include_once 'is_unknown_acronym.php';
 class CIndefiniteArticle
 {
    /**
+    * Work out which definite article ('a' or 'an') to use before a given word or words.
+    * The calculation is made by working out the sound of the first syllable of the first word.
+    * If it SOUNDS like a consonsant (e.g. the word 'unique') then we would want
+    * 'a' to be put before the word, as in 'A unique experience'. Where as the word
+    * Unusual has a vowel sounding start, so we would write 'An unusual experience'.
+    * This also works with acronyms. 'A NASA spaceship' and 'An NSA engineer'.
+    * @param[in] $WordOrWords The word or words we are wanting to place an 'a' or 'an'
+    * in front of. e.g. 'unique' or 'unique person that helped me out.' are both valid.
+    */
+   public function an_or_a( $WordOrWords )
+   {
+      preg_match( '#^([^[:space:]]+)#', ltrim( $WordOrWords ), $Matches );
+
+      $FirstWord = $Matches[ 1 ];
+
+      return $this->an_or_a_word( $FirstWord );
+   }
+
+   /**
     * Work out which definite article ('a' or 'an') to use before a given word.
     * The calculation is made by working out the sound of the first syllable.
     * If it SOUNDS like a consonsant (e.g. the word 'unique') then we would want
@@ -30,7 +49,7 @@ class CIndefiniteArticle
     * @param[in] $Word the word we are wanting to place an 'a' or 'an' in front of.
     * @return 'a' or 'an'
     */
-   public function an_or_a( $Word )
+   private function an_or_a_word( $Word )
    {
       // Create a lowercase version of the word.
       $LowercaseWord = strtolower( $Word );

@@ -15,22 +15,22 @@ include_once 'class.IndefiniteArticle.php';
 // Words to test.
 $TestWords = array
 (
-   'NSA',
-   'NASA',
-   'BBC',
-   'USA',
-   'USB',
-   'Ukrainian',
-   'European',
-   'honest',
-   'air',
-   'heir',
-   'hair',
-   'hospital',
-   'honour',
-   'apple',
-   'unique',
-   'x-ray'
+   'NSA engineer.',
+   'NASA astronaut.',
+   'BBC correspondent.',
+   'USA Olympian.',
+   'USB stick.',
+   'Ukrainian diplomat.',
+   'European country.',
+   'honest person.',
+   'air guitar.',
+   'heir to the throne.',
+   'hair on my head.',
+   'hospital appointment.',
+   'honour to help you.',
+   'apple can be eaten.',
+   'unique idea.',
+   'x-ray showed no problems.'
 );
 
 $IndefiniteArticle = new CIndefiniteArticle();
