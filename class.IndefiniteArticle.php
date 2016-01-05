@@ -30,7 +30,7 @@ class CIndefiniteArticle
     * @param[in] $Word the word we are wanting to place an 'a' or 'an' in front of.
     * @return 'a' or 'an'
     */
-   public function a_or_an( $Word )
+   public function an_or_a( $Word )
    {
       // Create a lowercase version of the word.
       $LowercaseWord = strtolower( $Word );

@@ -40,7 +40,7 @@ $IndefiniteArticle = new CIndefiniteArticle();
 foreach ( $TestWords as $TestWord )
 {
    // Output the result, i.e. 'an honest' or 'A NASA' etc.
-   echo ucwords( $IndefiniteArticle->a_or_an( $TestWord ) ) . " $TestWord\n";
+   echo ucwords( $IndefiniteArticle->an_or_a( $TestWord ) ) . " $TestWord\n";
 }
 
 ?>
