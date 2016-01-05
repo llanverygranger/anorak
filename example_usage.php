@@ -1,13 +1,10 @@
 <?php
 
 /**
- * @file This file contains functionality to work out whether a word should have 'an' or 'a'
- * before it. For example 'An honest man' or 'A holistic idea', or even 'A unique idea'.
+ * @file This file shows how to use the class CIndefiniteArticle in order to work out
+ * whether a word should have 'an' or 'a' before it. For example 'An honest man' or
+ * 'A holistic idea', or even 'A unique idea'.
  * @date 05-Jan-2016
- * @note This code was put together after reading the forum posts here:
- * https://stackoverflow.com/questions/1288291/how-can-i-correctly-prefix-a-word-with-a-and-an
- * I took all good suggestions on board to implement my solution and also added some of my
- * own ideas. I would value feedback from people to improve this solutuion even more.
  * @author Mike Youell
  * @license GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
  */
