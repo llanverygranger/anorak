@@ -5,21 +5,21 @@ Anorak stands for AN OR A Knowhow
 
 If you run the file example_usage.php the following results will be output demonstrating the algorithm in practise:
 
-- An NSA
-- A NASA
-- A BBC
-- A USA
-- A USB
-- A Ukrainian
-- A European
-- An honest
-- An air
-- An heir
-- A hair
-- A hospital
-- An honour
-- An apple
-- A unique
-- An x-ray
+ - An NSA engineer.
+ - A NASA astronaut.
+ - A BBC correspondent.
+ - A USA Olympian.
+ - A USB stick.
+ - A Ukrainian diplomat.
+ - A European country.
+ - An honest person.
+ - An air guitar.
+ - An heir to the throne.
+ - A hair on my head.
+ - A hospital appointment.
+ - An honour to help you.
+ - An apple can be eaten.
+ - A unique idea.
+ - An x-ray showed no problems.
 
 Note that British and American English can each be selected in the code. For example when American English is chosen it will be 'An herb' whereas in British English it will be 'A herb'.
