@@ -29,6 +29,7 @@ class CIndefiniteArticle
     * This also works with acronyms. 'A NASA spaceship' and 'An NSA engineer'.
     * @param[in] $WordOrWords The word or words we are wanting to place an 'a' or 'an'
     * in front of. e.g. 'unique' or 'unique person that helped me out.' are both valid.
+    * @return 'a' or 'an'
     */
    public function an_or_a( $WordOrWords )
    {
