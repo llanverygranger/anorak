@@ -9,7 +9,6 @@
  * @license GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
  */
 
-include_once 'is_unknown_acronym.php';
 
 include_once 'class.IndefiniteArticle.php';
 
