@@ -379,8 +379,8 @@ function is_exception_word( $Word, $British = true, $American = false )
       'hgh',
       'hiaa',
       'hipolito',
-      'homage',
-      'homages',
+      //'homage',     This is wrong. There is no silent 'h' here.
+      //'homages',    This is wrong. There is no silent 'h' here.
       'honest',
       'honestly',
       'honesty',
@@ -997,8 +997,8 @@ function is_exception_word( $Word, $British = true, $American = false )
       'hgh',
       'hiaa',
       'hipolito',
-      'homage',
-      'homages',
+      //'homage',     This is wrong. There is no silent 'h' here.
+      //'homages',    This is wrong. There is no silent 'h' here.
       'honest',
       'honestly',
       'honesty',
