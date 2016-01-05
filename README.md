@@ -3,7 +3,7 @@ Work out whether to use 'an' or 'a' before an English word. Code written in PHP.
 
 Anorak stands for AN OR A Knowhow
 
-If you run the file an_or_a.php the following results will be output demonstrating the algorithm in practise:
+If you run the file example_usage.php the following results will be output demonstrating the algorithm in practise:
 
 - An NSA
 - A NASA
